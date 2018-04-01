@@ -46,7 +46,7 @@ def buidRandom(R, N, random_tag):
 	i = 0
 	tag1_list = []
 	# 随机标记random_tag个tag1
-	print 'tag1'
+	print 'put tag1'
 	while i < random_tag:
 		k = random.randint(0, Nl - 1)
 		if 'tag1' not in N[k]['data']['label']:
@@ -54,7 +54,7 @@ def buidRandom(R, N, random_tag):
 			N[k]['data']['label'] = 'tag1'
 			i += 1
 	#根据random_tag个tag1的relation来标记tag2
-	print 'tag2'
+	print 'put tag2'
 	for tag1 in tag1_list:
 		for r in R1:
 			if r['data']['source'] == str(tag1):
@@ -84,7 +84,7 @@ def get_graph():
 	f1 = open('node.txt','wb')
 	f2 = open('edge.txt','wb')
 	node_num = 500
-	random_tag = 10
+	random_tag = 20
 	print 'match nodes'
 	# 查询 node_num个节点
 	N = graph.data('MATCH (n) RETURN n limit ' + str(node_num))

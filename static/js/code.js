@@ -7,7 +7,7 @@ $(function(){
         css: {
         //'target-arrow-shape': 'triangle',
         //'width': 1,
-        'line-color': '#000000',
+        //'line-color': '#000000',
         //'target-arrow-color': '#000000'
         }
       }
