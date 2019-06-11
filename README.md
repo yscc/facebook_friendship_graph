@@ -7,4 +7,6 @@ A project about facebook's friends relation graphy by python2.7 + neo4j(2.3.8 - 
 
 由于版本不同某些接口和它不怎么一样。
 
+论文HideMe: Privacy-Preserving Photo Sharing on Social Networks引用该项目生成拓扑图，并由InfoCom 2019年录用。
+
 ![Image text](/demo.png)
